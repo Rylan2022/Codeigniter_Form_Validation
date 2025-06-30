@@ -4,7 +4,11 @@ $config = array(
     array(
         'field' => 'username',
         'label' => 'User name',
-        'rules' => 'required'
+        'rules' => 'required|min_length[5]',
+        'errors' => array(
+            'required' => 'value khali nha ho',
+            'min_length' => '%s kom thake kon',
+        ),
     ),
     array(
         'field' => 'email',
