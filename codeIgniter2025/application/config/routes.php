@@ -54,4 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['user'] = 'HomeController/user_data';
 $route['validate'] = 'ValidateController';
-$route['form'] = 'FormController';
+// $route['form'] = 'FormController';
