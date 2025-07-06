@@ -13,7 +13,8 @@ defined('BASEPATH') or exit('No direct script allowed');
 
 <body>
     <?php echo validation_errors(); ?>
-    <?php echo form_open('newController/my_func()'); ?>
+
+    <?php echo form_open('newController/my_func'); ?>
 
     <h5>Email</h5>
     <input type="text" name="email" value="" size="50" />

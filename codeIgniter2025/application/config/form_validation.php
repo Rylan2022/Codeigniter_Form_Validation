@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $config = array(
     array(
@@ -18,4 +18,4 @@ $config = array(
 );
 $config['error_prefix'] = '<div class="text-danger mt-1 mb-1">';
 $config['error_suffix'] = '</div>';
-?>
+?> -->
