@@ -107,29 +107,28 @@ defined('BASEPATH') or exit('No direct script allowed.');
     <div class="login-box">
         <h2>Login</h2>
 
-        <?php echo validation_errors(); ?>
         <?php echo form_open('form/ValidateController/index') ?>
 
         <div class="user-box">
-            <input type="text" name="username" id="username" value="<?php echo set_value('username'); ?>" required
+            <input type="text" name="username" id="username"  required
                 size="50" />
             <label for="username">Full Name</label>
             <?php echo form_error('username'); ?>
         </div>
         <div class="user-box">
-            <input type="email" name="email" id="email" value="<?php echo set_value('email'); ?>" required size="50" />
+            <input type="email" name="email" id="email" required size="50" />
             <label for="email">Email</label>
             <?php echo form_error('email'); ?>
         </div>
 
         <div class="user-box">
-            <input type="password" name="password" value="<?php echo set_value('password') ?>" required size="50" />
+            <input type="password" name="password"  required size="50" />
             <label for="password">Password</label>
             <?php echo form_error('password'); ?>
         </div>
 
         <div class="user-box">
-            <input type="password" name="passconf" value="<?php echo set_value('passconf') ?>" required size="50" />
+            <input type="password" name="passconf" required size="50" />
             <label for="passconf">Confirm Password</label>
             <?php echo form_error('passconf'); ?>
         </div>

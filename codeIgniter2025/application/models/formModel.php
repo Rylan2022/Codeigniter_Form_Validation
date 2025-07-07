@@ -8,9 +8,12 @@ class formModel extends CI_Model{
             'email' => $this->input->post('email'),
             'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT)
         ];
-
-
         return $this->db->insert('users', $data);
     }
+
+    // public function get_data(){
+    //     $query = $this->db->get('users', 10);
+    //     return $query->result();
+    // }
 }
 ?>
